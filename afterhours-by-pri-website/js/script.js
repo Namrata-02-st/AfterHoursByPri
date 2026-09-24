@@ -116,7 +116,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e){
   const phone = document.getElementById('fphone').value.trim();
   const msg = document.getElementById('fmsg').value.trim();
   const text = `Hi AfterHours By Pri! I'm ${name} (${phone}).\n\n${msg}`;
-  const url = `https://wa.me/918140851802?text=${encodeURIComponent(text)}`;
+  const url = `https://wa.me/918238825140?text=${encodeURIComponent(text)}`;
   window.open(url, '_blank', 'noopener');
 });
 
